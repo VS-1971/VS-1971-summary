@@ -1,0 +1,27 @@
+.header {
+    height: 130px;
+    position: relative;
+    //background-color: #eaebeb;
+    h1 {
+         text-align: center;
+         margin-top: 30px;
+        color: #000;
+        font-size: 80px;
+        font-weight: 700;
+    }
+
+    &__contact {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        right: 20px;
+        top: 0;
+        .telephone, .mail {
+            color: #000;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 24px;
+        }
+        
+    }
+}

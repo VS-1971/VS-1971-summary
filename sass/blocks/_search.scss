@@ -1,0 +1,27 @@
+.search {
+    min-height: 342px;
+    padding-top: 65px;
+   &__wrapper {
+    padding: 15px 51px;
+    display: grid;
+    grid-template-columns: 410px 274px;
+    column-gap: 247px;
+    justify-content: center;
+    align-items: center;
+   }
+   &__descr {
+    color: #000;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 31px;
+    width: 430px;
+   }
+   &__photo {
+      background-color: none;
+            img {
+            width: 274px;
+            height: 319px;
+      }
+   }
+}

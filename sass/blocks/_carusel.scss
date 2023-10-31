@@ -1,0 +1,39 @@
+.carusel { 
+    display: none;
+    &__inner {
+        width: 450px;
+        margin: 50px auto;
+        position: relative;
+        padding: 0 5px;
+    }
+
+    
+    .slick-prev {
+        background: none;
+        border: none;
+        position: absolute;
+        z-index: 5;
+        top: 44%;
+        img {
+            width: 30px;
+            height: 30px;
+        }
+    }
+    .slick-next {
+        background: none;
+        border: none;
+        position: absolute;
+        z-index: 5;
+        transform: translate(267px,-119px);
+        img {
+            width: 30px;
+            height: 30px;
+        }
+    }
+}
+
+.work {
+    &__slick {
+        display: none;
+    }
+}
